@@ -1,1 +1,1 @@
-https://github.com/ariaaxc/ono-tebe-nado-fd
+https://github.com/ariaaxc/ono-tebe-nado-fd/tree/main
