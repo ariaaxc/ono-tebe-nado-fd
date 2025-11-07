@@ -94,7 +94,7 @@
   font-size: 22px;
 }
 .cover__description-text {
-  word-spacing: 20px;
+  word-spacing: 22px;
 }
 .bet-button {
   width: 256px;
@@ -212,6 +212,9 @@
   padding-top: 100px;
   font-size: 20px;
   line-height: 24px;
+}
+.fivepx{
+  margin-right: 5px;
 }
 .footer {
   display:grid;
