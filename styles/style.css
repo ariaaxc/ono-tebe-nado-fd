@@ -7,24 +7,24 @@
   font-size:18px;
     
 }
-.header__menu_list {
+.header__links_list {
   display:flex;
   flex-direction: row;
   gap: 32px;
   list-style-type:circle;
 }
-.underline__link {
+.header__link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
-.header__item_active .underline__link {
+.header__link_active .header__link {
   text-decoration: none;
 }
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
-.header-logo-image {
+.header__logo-image {
   display: block;
   width: 148px;
   height: 105px;
@@ -183,7 +183,7 @@
 .about__column-first {
   padding-top: 35px;
 }
-.about__column-secend {
+.about__column-second {
   padding: 133px 0px 0px 25px;
 }
 .about__logo {
