@@ -123,8 +123,12 @@
   color: #FFFFFF;
 }
 .lots__card-list-item {
+  position: relative;
+  z-index: 1;
   width: 334px;
   min-height: 596px;
+  background-position: center;
+  background-size: cover;
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
@@ -134,14 +138,10 @@
   text-decoration: none;
 }
 .card {
-  position:relative;
-  z-index: 1;
   display: flex;
   flex-direction:column;
   justify-content: space-between;
   height: 100%;
-  background-position: center;
-  background-size: cover;
 }
 .card__title {
   position:relative;
