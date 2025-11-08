@@ -215,6 +215,7 @@
 .footer {
   display:grid;
   grid-template-columns: repeat(3,1fr);
+  margin-top: 180px;
   padding: 180px 50px 82px 50px;
   font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
