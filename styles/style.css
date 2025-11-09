@@ -15,20 +15,20 @@
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
-.header__link_active .header__link {
-  text-decoration: none;
-}
 .header__link {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
+}
+.header__link_active {
+  text-decoration: none;
 }
 .header__logo-image {
   display: block;
   width: 148px;
   height: 105px;
 }
-.address-block__item {
+.address-block__link {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -38,6 +38,11 @@
 }
 .header__address {
   justify-self: end;
+}
+.address-block__item {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 .cover {
   position: relative;
